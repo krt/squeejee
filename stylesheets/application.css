@@ -530,7 +530,7 @@ tr.even.priority-1, table.list tbody tr.even.priority-1:hover { color: #559; }
 tr.even.priority-1 { background: #f2faff; }
 tr.priority-1 a { color: #559; }
 tr.odd.priority-1 td, tr.even.priority-1 td { border-color: #add7f3; }
-tr.closed { text-decoration: line-through}
+tr.closed td { text-decoration: line-through}
 
 /* Table-row link-colouring by priority (respecting the table-row colouring styles above) */
 table.list tr.priority-5 a,
