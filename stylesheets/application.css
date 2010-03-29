@@ -538,6 +538,11 @@ table.list tr.priority-3 a { color: #900; }
 
 table.list tr.priority-1 a { color: #559; }
 
+td.subject{
+    min-width:200px;
+    width: expression(document.body.clientWidth < 202? "200px" : "auto");
+}
+
 /*
 * Progressbars
 */
